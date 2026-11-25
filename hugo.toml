@@ -3,10 +3,6 @@ locale = 'en-US'
 title = 'axels'
 theme = 'pageroom-soft'
 
-[params]
-  description = 'A new website made with Pageroom.'
-  mainSections = ['posts']
-
 [[menus.main]]
   name = 'Home'
   pageRef = '/'
@@ -24,3 +20,7 @@ theme = 'pageroom-soft'
   pageRef = '/about'
   weight = 30
   identifier = 'about'
+
+[params]
+description = 'pagerooom'
+mainSections = ['posts']
