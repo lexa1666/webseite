@@ -1,0 +1,26 @@
+baseURL = 'https://lexa1666.github.io/webseite/'
+locale = 'en-US'
+title = 'axels'
+theme = 'pageroom-soft'
+
+[params]
+  description = 'A new website made with Pageroom.'
+  mainSections = ['posts']
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+  identifier = 'home'
+
+[[menus.main]]
+  name = 'Blog'
+  pageRef = '/posts'
+  weight = 20
+  identifier = 'blog'
+
+[[menus.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 30
+  identifier = 'about'
